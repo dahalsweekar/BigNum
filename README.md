@@ -1,15 +1,13 @@
 # BigNum - Ceil Rounding
 
-This project is a simple web-based utility that allows users to round a number **upwards** (using `ceil` rounding) to a specified number of decimal places. It is built with plain HTML, CSS, and JavaScript and hosted using GitHub Pages.
+This project is a simple web-based utility that allows users to round a number to a specified number of decimal places. It is built with plain HTML, CSS, and JavaScript.
 
 ---
 
 ## 🚀 Live Demo
 
 You can try the live version here:  
-👉 [https://your-username.github.io/bignum-rounding](https://your-username.github.io/bignum-rounding)
-
-> *(Replace `your-username` with your actual GitHub username)*
+👉 [(https://dahalsweekar.github.io/BigNum---Rounding-Function/)]
 
 ---
 
