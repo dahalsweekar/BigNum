@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigNum - Ceil Rounding</title>
+    <script src="script.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f8fb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 400px;
+        }
+
+        h1 {
+            color: #1e3a8a;
+            margin-bottom: 30px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 10px 5px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #2563eb;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #1e40af;
+        }
+
+        #roundedNumDisplay {
+            color: #2563eb;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>BigNum - Rounding Function</h1>
+        <table>
+            <tbody>
+                <tr>
+                    <td style="font-size: 14px;">*Enter a number:</td>
+                    <td><input type="number" id="numIn" /></td>
+                </tr>
+                 <tr>
+                    <td style="font-size: 14px;">*Round to decimal places:</td>
+                    <td><input type="number" id="roundId" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="button" onclick="RoundOff()">Round</button>
+                    </td>
+                </tr>
+                <tr id="finalVal">
+                    <td style="font-size: 14px;">Rounded Number:</td>
+                    <td style="font-size: 14px;"><h3 id="roundedNumDisplay"></h3></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
