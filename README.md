@@ -7,7 +7,7 @@ This project is a simple web-based utility that allows users to round a number t
 ## 🚀 Live Demo
 
 You can try the live version here:  
-👉 [(https://dahalsweekar.github.io/BigNum---Rounding-Function/)]
+👉 https://dahalsweekar.github.io/BigNum---Rounding-Function/
 
 ---
 
