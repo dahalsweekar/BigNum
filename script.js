@@ -14,10 +14,12 @@ class BigNum {
             if (n !== '.') {
                 numD.push(n);
                 counter++;
-            } else {
+            }
+            else{
                 this.dotP = counter;
             }
         }
+        if (this.dotP == 0) this.dotP = num.length;
         if (roundToDigit > numD.length - this.dotP) {
             numD = numD.concat(Array(roundToDigit - (numD.length - this.dotP)).fill('0'));
         }
