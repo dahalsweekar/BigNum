@@ -22,14 +22,7 @@ You can try the live version here:
 
 ## 🔍 How It Works
 
-The function `RoundOff()` performs the rounding in the following steps:
-
-1. **Input Collection**:  
-   The user provides:
-   - A number to round (`numIn`)
-   - The number of decimal places to round to (`roundId`)
-
-2. **Rounding Logic**:
+1. **Rounding Logic**:
    - The number is split into two halves (before and after decimal point).
    - The result is passed through Rounding function where the logic is to check from the last digit (of the second half) and sequentially sum ip to the decimal places number set by the user.
    - The result is concatinated.
